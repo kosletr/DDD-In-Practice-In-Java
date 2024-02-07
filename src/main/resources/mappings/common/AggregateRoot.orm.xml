@@ -3,9 +3,9 @@
                  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd"
                  version="2.2">
 
-    <mapped-superclass class="com.example.demo.common.AggregateRoot">
+    <mapped-superclass class="com.example.demo.logic.common.AggregateRoot">
         <entity-listeners>
-            <entity-listener class="com.example.demo.utils.EventListener"/>
+            <entity-listener class="com.example.demo.logic.utils.EventListener"/>
         </entity-listeners>
         <attributes>
             <transient name="domainEvents"/>

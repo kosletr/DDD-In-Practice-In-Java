@@ -3,7 +3,7 @@
                  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd"
                  version="2.2">
 
-    <entity class="com.example.demo.snack_machines.Slot" name="Slot">
+    <entity class="com.example.demo.logic.snack_machines.Slot" name="Slot">
         <attribute-override name="id">
             <column name="slot_id"/>
         </attribute-override>
@@ -18,7 +18,7 @@
         </attributes>
     </entity>
 
-    <embeddable class="com.example.demo.snack_machines.SnackPile" access="FIELD">
+    <embeddable class="com.example.demo.logic.snack_machines.SnackPile" access="FIELD">
         <attributes>
             <basic name="price"/>
             <basic name="quantity"/>

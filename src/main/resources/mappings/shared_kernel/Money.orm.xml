@@ -3,7 +3,7 @@
                  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd"
                  version="2.2">
 
-    <embeddable class="com.example.demo.shared_kernel.Money" access="FIELD">
+    <embeddable class="com.example.demo.logic.shared_kernel.Money" access="FIELD">
         <attributes>
             <basic name="oneCentCount">
                 <column name="oneCentCount"/>
