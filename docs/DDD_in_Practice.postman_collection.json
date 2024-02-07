@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "51529cab-03d7-4287-986d-a20e3f1ef334",
+		"name": "DDD_in_Practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32413556"
+	},
+	"item": [
+		{
+			"name": "SnackMachines",
+			"item": [
+				{
+					"name": "InsertMoney",
+					"item": [
+						{
+							"name": "Insert Cent",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/snackMachine/insertCent",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"snackMachine",
+										"insertCent"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert Ten Cent",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/snackMachine/insertTenCent",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"snackMachine",
+										"insertTenCent"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert Quarter",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/snackMachine/insertQuarter",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"snackMachine",
+										"insertQuarter"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert Dollar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/snackMachine/insertDollar",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"snackMachine",
+										"insertDollar"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert Five Dollar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/snackMachine/insertFiveDollar",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"snackMachine",
+										"insertFiveDollar"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert Twenty Dollar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/snackMachine/insertTwentyDollar",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"snackMachine",
+										"insertTwentyDollar"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get Money In Transaction",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/snackMachine/moneyInTransaction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"snackMachine",
+								"moneyInTransaction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Money Inside",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/snackMachine/moneyInside",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"snackMachine",
+								"moneyInside"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Snack Piles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/snackMachine/snackPiles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"snackMachine",
+								"snackPiles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Return Money",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/snackMachine/returnMoney",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"snackMachine",
+								"returnMoney"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buy Snack",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/snackMachine/buySnack?position=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"snackMachine",
+								"buySnack"
+							],
+							"query": [
+								{
+									"key": "position",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Atms",
+			"item": [
+				{
+					"name": "Get Money Inside",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/atm/moneyInside",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"atm",
+								"moneyInside"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Money Charged",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/atm/moneyCharged",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"atm",
+								"moneyCharged"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Take money",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/atm/takeMoney?amount=1.00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"atm",
+								"takeMoney"
+							],
+							"query": [
+								{
+									"key": "amount",
+									"value": "1.00"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

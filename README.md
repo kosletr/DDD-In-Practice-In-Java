@@ -9,7 +9,7 @@ Aside from the DDD patterns, this course includes many other patterns, good prac
 
 There are three bounded contexts which are separated by different folders under the same Java project. To describe their capabilities we use the terminology of the corresponding ubiquitous language:
 
-![Project context map](context_map.png)
+![Project context map](docs/context_map.png)
 
 1. Snack Machines:
     - Insert various coins or notes.
@@ -42,6 +42,7 @@ The project contains base classes for various tactical patterns of DDD:
 |             | Course Project    |             This project              |
 |-------------|-------------------|---------------------------------------|
 | Language    | C# 6              | Java 17                               |
+| Platform    | Desktop App       | Web App - REST API                    |
 | Framework   | .NET F 4.5.2      | Spring Boot 3.2.2 (Maven 3.9.5)       |
 | DBMS        | MS SQL Server     | H2 (file-based)                       |
 | ORM         | NHibernate        | Spring Data JPA with Hibernate        |
@@ -60,6 +61,10 @@ We used **XML-based** (`.orm.xml` files) instead of **annotation-based configura
 
 We omit the use of `Repository` base class which was introduced in the course as it does not seem necessary. 
 
-**Note**
+**Note:**
 
 We use Java records for the DTO implementations rather than classes for faster implementation.
+
+**Note:**
+
+You can find a postman collection that you can use to try the application.
