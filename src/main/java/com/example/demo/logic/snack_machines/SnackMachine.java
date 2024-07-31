@@ -38,7 +38,7 @@ public class SnackMachine extends AggregateRoot {
         return slots.stream()
                 .sorted(Comparator.comparingInt(Slot::getPosition))
                 .map(Slot::getSnackPile)
-                .collect(Collectors.toUnmodifiableList());
+                .toList();
     }
 
     private Slot getSlot(final int position) {
