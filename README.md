@@ -39,11 +39,11 @@ The project contains base classes for various tactical patterns of DDD:
 
 ## Comparison
 
-|             | Course Project    |             This project              |
+|             | Course Project    | This project                          |
 |-------------|-------------------|---------------------------------------|
 | Language    | C# 6              | Java 17                               |
 | Platform    | Desktop App       | Web App - REST API                    |
-| Framework   | .NET F 4.5.2      | Spring Boot 3.2.2 (Maven 3.9.5)       |
+| Framework   | .NET F 4.5.2      | Spring Boot 3.3.0 (Maven 3.9.5)       |
 | DBMS        | MS SQL Server     | H2 (file-based)                       |
 | ORM         | NHibernate        | Spring Data JPA with Hibernate        |
 | DB Mappings | Fluent NHibernate | JPA ORM XML-based configuration       |
